@@ -1,0 +1,13 @@
+# Log files
+*.log
+
+# Config files (user-specific)
+*.conf
+
+# Backup files
+*~
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
