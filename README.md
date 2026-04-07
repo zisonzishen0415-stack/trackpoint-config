@@ -1,11 +1,9 @@
-# TrackPoint Configuration Tool
-
-> ⚠️ **Linux Only** - This tool is designed exclusively for Linux systems with X11.
+# TrackPoint Configuration Tool for Linux
 
 A colorful TUI utility for configuring ThinkPad TrackPoint (pointing stick) settings.
 
 ![License](https://img.shields.io/badge/license-GPL%20v3-blue.svg)
-![Platform](https://img.shields.io/badge/platform-Linux-orange.svg)
+![Platform](https://img.shields.io/badge/platform-Linux-lightgrey.svg)
 
 ## Features
 
@@ -23,11 +21,8 @@ A colorful TUI utility for configuring ThinkPad TrackPoint (pointing stick) sett
 
 ## Requirements
 
-**This tool runs on Linux only.** It requires:
-
-- Linux with X11 display server
-- ThinkPad with TrackPoint device
-- `xinput` utility (X11 input device configuration tool)
+- Linux with X11
+- `xinput` utility
 - `bc` (for float math)
 
 ```bash
